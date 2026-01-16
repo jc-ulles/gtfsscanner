@@ -1,11 +1,14 @@
 Package: gtfsscanner
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
+Version: 0.1
+Authors@R: 
+    person("Jean-Clement", "Ullès", ,"jean-clement.ulles@univ-montp3.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0004-8393-7188"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.1
