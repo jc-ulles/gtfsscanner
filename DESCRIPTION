@@ -8,6 +8,7 @@ Authors@R:
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
+Imports: tidytransit, dplyr, hms, sf, leaflet, lubridate
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
