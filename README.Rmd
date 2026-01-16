@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# gtfsscanner
+# gtfsscanner <img src="man/figures/logo_gtfsscanner.png" align="right" width="138"/>
 
 <!-- badges: start -->
 

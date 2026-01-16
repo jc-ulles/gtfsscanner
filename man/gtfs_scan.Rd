@@ -4,10 +4,10 @@
 \alias{gtfs_scan}
 \title{Scan the position of all vehicles}
 \usage{
-gtfs_scan(url, day, time)
+gtfs_scan(dir, day, time)
 }
 \arguments{
-\item{url}{GTFS directory}
+\item{dir}{GTFS directory (in .zip format)}
 
 \item{day}{Day ("YYYY-MM-DD")}
 
@@ -22,7 +22,7 @@ Determines the geographical position of vehicles according to a timetable, based
 \examples{
 \dontrun{
 gtfs_scan(
-  url = "lien.zip",
+  dir = "C/.../GTFS.zip",
   day = "2025-11-05",
   time = "08:05:00")
 }

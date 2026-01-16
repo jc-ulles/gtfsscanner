@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gtfsscanner
+# gtfsscanner <img src="man/figures/logo_gtfsscanner.png" align="right" width="138"/>
 
 <!-- badges: start -->
 
