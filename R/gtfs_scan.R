@@ -3,7 +3,7 @@
 #'
 #' @description Determines the geographical position of vehicles according to a timetable, based on GTFS data.
 #'
-#' @param url GTFS directory
+#' @param dir GTFS directory (in .zip format)
 #' @param day Day ("YYYY-MM-DD")
 #' @param time Time ("HH:MM:SS")
 #'
@@ -20,14 +20,14 @@
 #' @examples
 #' \dontrun{
 #' gtfs_scan(
-#'   url = "lien.zip",
+#'   dir = "C/.../GTFS.zip",
 #'   day = "2025-11-05",
 #'   time = "08:05:00")
 #' }
 
 
 
-gtfs_scan <- function(url,
+gtfs_scan <- function(dir,
                       day,
                       time) {
 
@@ -37,7 +37,7 @@ gtfs_scan <- function(url,
   ############# CHARGEMENT DU GTFS ET PREPARATION DES OBJETS #############
   ########################################################################
 
-  gtfs <- read_gtfs(url)
+  gtfs <- read_gtfs(dir)
 
 
   # Choix du jour et de l'horaire

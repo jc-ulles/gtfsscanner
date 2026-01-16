@@ -6,9 +6,11 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/jc-ulles/gtfsscanner/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jc-ulles/gtfsscanner/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
-The goal of gtfsscanner is to …
+Determines the geographical position of vehicles according to a
+timetable, based on GTFS data.
 
 ## Installation
 
@@ -26,5 +28,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(gtfsscanner)
-## basic example code
+
+gtfs_scan(dir = "C/.../GTFS.zip",
+          day = "2025-11-05",
+          time = "08:05:00")
 ```
